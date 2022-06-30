@@ -1,4 +1,4 @@
-#include<studio.h>
+#include<stdio.h>
 int main(void)
 {
 	puts ("\"Programming islike building a multilingual puzzle");
