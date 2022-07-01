@@ -1,14 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
 *main- will assign a random number to the variable n each time it is executed
 *Return: 0 if Success otherwize nonzero
 */
-
- int main(void)
-
+int main(void)
 {
 int n;
 
