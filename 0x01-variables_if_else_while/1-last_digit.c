@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
 *main- prints the last digitof random number
-*Return:0 iff exist else nonzero
+*Return: 0 iff exist else nonzero
 */
 int main(void)
 {
