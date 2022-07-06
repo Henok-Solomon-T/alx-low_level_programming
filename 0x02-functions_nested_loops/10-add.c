@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*int add- adds two integers and returns the result
+*add- adds two integers and returns the result
 *@m: int to be added to j,
 *@j: int added to m,
 *Return: sum s of m and j;
