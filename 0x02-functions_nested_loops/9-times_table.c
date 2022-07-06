@@ -7,14 +7,11 @@ void times_table(void)
 {
 int h, t, s;
 
-h = 0;
-while (h < 10)
-
+for (h = 0; h < 10; h++)
 {
-t = 0;
-while (t < 10)
+for (t = 0; t < 10; t++)
 {
-s = t *h;
+s = t * h;
 if (t == 0)
 {
 _putchar(s + '0');
@@ -32,9 +29,7 @@ _putchar(' ');
 _putchar((s / 10) + '0');
 _putchar((s % 10) + '0');
 }
-t++;
-}
-h++;
 }
 _putchar('\n');
+}
 }
