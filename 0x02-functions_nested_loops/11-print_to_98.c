@@ -11,24 +11,23 @@ void print_to_98(int n)
 {
 for (n = 0; n <= 98; n++)
 {
-_putchar(n + '0');
+_putchar(n);
 _putchar(',');
 _putchar(' ');
-_putchar('\n');
 }
 
 if (n < 0)
 n = -n;
-_putchar(n + '0');
+_putchar(n);
 _putchar(',');
 _putchar(' ');
-_putchar('\n');
+_putchar(-n);
 
 for (n = 0; n >= 98; n++)
 {
-_putchar(n + '0');
+_putchar(n);
 _putchar(',');
 _putchar(' ');
-_putchar('\n');
 }
+_putchar('\n');
 }
