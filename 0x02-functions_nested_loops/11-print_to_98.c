@@ -8,22 +8,29 @@
 
 void print_to_98(int n)
 {
-
-int z;
-z = n % 10;
-
-if ((n >= 0) && (n != 98))
+for (n = 0; n <= 98; n++)
 {
-_putchar(n);
+_putchar(n + '0');
 _putchar(',');
 _putchar(' ');
-_putchar('\n');
-n++;
 }
 
-else if (z == 98)
+int a;
+if (n < 0)
+n = -n;
+
+a = n % 10;
+
+if (a < 0)
+a = -a;
+_putchar(a);
+_putchar('\n');
+
+for (n = 0; n >= 98; n++)
 {
-z = -z;
-_putchar(z + '0');
+_putchar(n - '98');
+_putchar(',');
+_putchar(' ');
+_putchar('\n')
 }
 }
