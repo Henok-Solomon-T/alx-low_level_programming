@@ -12,5 +12,5 @@ if (h < 0)
 {
 return (-h);
 }
-return (n);
+return (h);
 }
