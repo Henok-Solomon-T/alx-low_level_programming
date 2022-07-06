@@ -20,6 +20,7 @@ if (s < 10 && t != 0)
 {
 _putchar(',');
 _putchar(' ');
+_putchar(' ');
 _putchar(s + '0');
 }
 else if (s >= 10)
