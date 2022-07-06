@@ -10,6 +10,8 @@ void print_to_98(int n)
 {
 
 int z;
+z = n % 10;
+
 if ((n >= 0) && (n != 98))
 {
 _putchar(n);
@@ -18,11 +20,11 @@ _putchar(' ');
 _putchar('\n');
 n++;
 }
-z = n % 10;
+
 else if (z == 98)
 {
 z = -z;
-_puthcar(z + '0');
+_putcar(z + '0');
 return (z);
 }
 }
