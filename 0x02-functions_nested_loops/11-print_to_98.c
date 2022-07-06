@@ -24,7 +24,6 @@ n++;
 else if (z == 98)
 {
 z = -z;
-_putcar(z + '0');
-return (z);
+_putchar(z + '0');
 }
 }
