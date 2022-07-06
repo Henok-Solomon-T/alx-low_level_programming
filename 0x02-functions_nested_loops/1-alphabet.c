@@ -9,7 +9,7 @@ void print_alphabet(void)
 {
 int h;
 h = 'a';
-while (h >='z')
+while (h <= 'z')
 {
 _putchar(h);
 h++;
