@@ -1,20 +1,20 @@
 #include "main.h"
 /**
-*main- prints Holberton,
+*_putchar- prints _putchar,
 * followed by new line
+*@c: character of _putchar
 *Return: 0 if exist
 */
-int main(void)
+int _putchar(char c)
 {
-_putchar('H');
-_puchar('o');
-_puchar('l');
-_puchar('b');
-_puchar('e');
-_puchar('r');
+_puchar('_');
+_puchar('p');
+_puchar('u');
 _puchar('t');
-_puchar('o');
-_puchar('n');
+_puchar('c');
+_puchar('h');
+_puchar('a');
+_puchar('r');
 _puchar('\n');
 
 return (0);
