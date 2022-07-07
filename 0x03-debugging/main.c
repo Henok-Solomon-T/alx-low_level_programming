@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <studio.h>
+#include "main.h"
 
 /**
  * positive_or_negative- test function
@@ -36,9 +37,8 @@ return (0);
 
 int main(void)
 {
-
 int i;
-i = 0;
+i = 98;
 positive_or_negative(i);
 
 return (0);

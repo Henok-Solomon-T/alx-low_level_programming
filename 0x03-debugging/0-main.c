@@ -1,14 +1,16 @@
 #include "main.h"
 /**
- * main- creates an infinite loops;
- * Return: 0 if success;
+ * main- tests function that prints if integer is positive or negative
+ * Return: 0
  */
 
 int main(void)
 {
-int h;
 
-h = 0;
+int i;
+
+i = 98;
 positive_or_negative(h);
+
 return (0);
 }
