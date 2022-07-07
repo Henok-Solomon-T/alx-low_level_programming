@@ -18,7 +18,7 @@ if (a > c)
 {
 largest = a;
 }
-else 
+else
 {
 largest = c;
 }
