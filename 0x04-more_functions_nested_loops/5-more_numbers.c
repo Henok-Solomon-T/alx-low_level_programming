@@ -16,17 +16,9 @@ for (h = 0; h < 10; h++)
 for (t = 0; t < 15; t++)
 {
 
-if (t < 10)
-{
-_putchar(t + '0');
-}
-
-else if ((t >= 10) && (t < 15))
-{
+if (t >= 10)
 _putchar((t / 10) + '0');
 _putchar((t % 10) + '0');
-}
-
 }
 _putchar('\n');
 }
