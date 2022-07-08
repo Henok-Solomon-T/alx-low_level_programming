@@ -13,19 +13,21 @@ int h, t;
 
 for (h = 0; h < 10; h++)
 {
-
-t = 0;
-while (t < 15)
+for (t = 0; t < 15; t++)
 {
 
-if (t >= 10)
+if (t < 10)
+{
+_putchar(t + '0');
+}
+
+else if ((t >= 10) && (t < 15))
 {
 _putchar((t / 10) + '0');
 _putchar((t % 10) + '0');
 }
-t++;
-}
 
+}
 _putchar('\n');
 }
 }
