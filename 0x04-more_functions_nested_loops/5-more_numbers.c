@@ -14,14 +14,16 @@ int h, t;
 for (h = 0; h < 10; h++)
 {
 
-for (t = 0; t < 15; t++)
+t = 0;
+while (t < 15)
 {
 
 if (t >= 10)
 {
-_putchar(t / 10 + '0');
-_putchar(t % 10 + '0');
+_putchar((t / 10) + '0');
+_putchar((t % 10) + '0');
 }
+t++;
 }
 
 _putchar('\n');
