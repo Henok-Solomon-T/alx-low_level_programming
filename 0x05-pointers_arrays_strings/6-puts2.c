@@ -19,7 +19,7 @@ while (h < len)
 
 {
 _putchar(str[h]);
-h+=2;
+h += 2;
 }
 _putchar('\n');
 
