@@ -23,7 +23,7 @@ printf("%d", a[h]);
 }
 else
 {
-printf(" , %d", a[h]);
+printf(", %d", a[h]);
 }
 
 h++;
