@@ -11,14 +11,14 @@ if (n <= 0)
 {
 _putchar('\n');
 }
-else 
+else
 {
 int h, t;
 for (h = 0; h < n; h++)
 {
-for (t =0; t < n; t++)
+for (t = 0; t < n; t++)
 {
-	if (t == h)
+if (t == h)
 
 _putchar('\\');
 else if (t < h)
