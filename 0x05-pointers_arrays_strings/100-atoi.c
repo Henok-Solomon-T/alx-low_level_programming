@@ -15,4 +15,5 @@ a = b = c = len = d = digit = 0;
 while (s[a] == '=')
 len++;
 
+return ();
 }
