@@ -20,10 +20,10 @@ while (h < n)
 if (h == 0)
 {
 printf("%d", a[h]);
+}
 else
 {
-printf(", %d", a[h]);
-}
+printf(" , %d", a[h]);
 }
 
 h++;
