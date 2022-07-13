@@ -11,7 +11,7 @@ if (n <= 0)
 {
 _putchar('\n');
 }
-else 
+else
 {
 int h;
 h = 1;
