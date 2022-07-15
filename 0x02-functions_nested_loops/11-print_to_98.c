@@ -21,7 +21,7 @@ if (n == 98)
 {
 printf("%d\n", n);
 }
-else 
+else
 {
 printf("%d, ", n);
 }
