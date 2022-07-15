@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-#include "main.h"
 
 
 /**
@@ -8,10 +7,9 @@
  * But for multiples of three print Fizz instead of the number and
  * for the multiples of five print Buzz.
  * For numbers which are multiples of both three and five print FizzBuzz.
- * Return: The result
  */
 
-int main(void)
+void  main()
 {
 
 int z;
@@ -46,6 +44,4 @@ printf("%s ", ch35);
 }
 
 }
-
-return (0);
 }
