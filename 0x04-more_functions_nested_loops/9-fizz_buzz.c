@@ -16,7 +16,7 @@ int main(void)
 int z;
 
 z = 1;
-while (z <= 100) 
+while (z <= 100)
 {
 
 if ((z % 3 == 0) && (z % 5 != 0))
@@ -41,8 +41,6 @@ printf("%d ", z);
 
 z++;
 }
-
-printf("\n");
 
 return (0);
 }
