@@ -1,5 +1,5 @@
+#include "main.h"
 #include <stdio.h>
-#include <string.h>
 
 
 /**
@@ -7,41 +7,38 @@
  * But for multiples of three print Fizz instead of the number and
  * for the multiples of five print Buzz.
  * For numbers which are multiples of both three and five print FizzBuzz.
+ * Return: Always 0.
  */
 
-void  main()
+int main(void)
 {
 
 int z;
-char ch3, ch5, ch35;
-
-ch3 = "Fizz";
-ch5 = "Buzz";
-ch35 = "FizzBuzz";
-
 
 for (z = 0; z <= 100; z++)
 {
 
-
-if (z % 3 != 0 && z % 5 != 0)
+if (z % 3 == 0 && z % 5 != 0)
 {
-printf("%d ", z);
-}
-else if (z % 3 == 0 && z % 5 != 0)
-{
-printf("%s ", ch3);
+printf("Fizz ");
 }
 
 else if (z % 3 != 0 && z % 5 == 0)
 {
-printf("%s ", ch5);
+printf("Buzz ");
 }
 
 else if (z % 3 == 0 && z % 5 == 0)
 {
-printf("%s ", ch35);
+printf("FIzzBuzz ");
 }
 
+else 
+{
+printf("%d ", z);
 }
+}
+printf("\n");
+
+return (0);
 }
