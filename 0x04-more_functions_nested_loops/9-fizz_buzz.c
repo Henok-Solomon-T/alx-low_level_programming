@@ -17,9 +17,6 @@ int z;
 
 for (z = 1; z <= 100; z++)
 {
-z = 1;
-while (z <= 100)
-{
 
 if ((z % 3 == 0) && (z % 5 == 1))
 
@@ -37,12 +34,14 @@ else if ((z % 3 == 0) && (z % 5 == 0))
 printf("FizzBuzz ");
 }
 
-else
+else if ( z == 1)
 {
 printf("%d ", z);
 }
 
-z++;
+else 
+{
+printf("%d", z);
 }
 }
 printf("\n");
