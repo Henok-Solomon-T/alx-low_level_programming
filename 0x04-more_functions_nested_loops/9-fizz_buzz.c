@@ -37,12 +37,12 @@ else if ((z % 3 == 0) && (z % 5 == 0))
 printf("FizzBuzz ");
 }
 
-else if ((z % 3 == 1) && (z % 5 ==1)
+else if ((z % 3 == 1) && (z % 5 == 1)
 
 printf("%d ", z);
 
 
-z++;
+iz++;
 }
 }
 return (0);
