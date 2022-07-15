@@ -14,32 +14,34 @@ int main(void)
 
 int z;
 
-z = 1;
-while (z = 1; z <= 100)
+for (z = 0; z <= 100; z++)
+{
+while (z <= 100)
 
 {
 
 if (z % 3 == 0 || z % 5 == 0)
 {
-printf("%d ");
+printf("%d ", z);
 }
 else if (z % 3 == 0 && z % 5 != 0)
 {
-printf("Fizz");
+printf("Fizz ");
 }
 
 else if (z % 3 != 0 && z % 5 == 0)
 {
-printf("Buzz");
+printf("Buzz ");
 }
 
 else if (z % 3 == 0 && z % 5 == 0)
 {
-printf("FizzBuzz");
+printf("FizzBuzz ");
 }
 
 z++;
 }
 
 return (0);
+}
 }
