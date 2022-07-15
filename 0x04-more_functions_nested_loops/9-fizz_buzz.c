@@ -21,27 +21,27 @@ for (z = 1; z <= 100; z++)
 if ((z % 3 == 0) && (z % 5 == 1))
 
 {
-printf("Fizz ");
+printf(" Fizz");
 }
 
 else if ((z % 3 == 1) && (z % 5 == 0))
 {
-printf("Buzz ");
+printf(" Buzz");
 }
 
 else if ((z % 3 == 0) && (z % 5 == 0))
 {
-printf("FizzBuzz ");
+printf(" FizzBuzz");
 }
 
 else if (z == 1)
 {
-printf("%d ", z);
+printf("%d", z);
 }
 
 else
 {
-printf("%d ", z);
+printf("%d", z);
 }
 }
 printf("\n");
