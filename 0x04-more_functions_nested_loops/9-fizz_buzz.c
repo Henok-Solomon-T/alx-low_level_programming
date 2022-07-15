@@ -15,21 +15,21 @@ int main(void)
 
 int z;
 
-z = 0;
-while (z <= 100)
+z = 1;
+while (z <= 100) 
 {
 
-if (z % 3 == 0 && z % 5 != 0)
+if ((z % 3 == 0) && (z % 5 != 0))
 {
 printf("Fizz ");
 }
 
-else if (z % 3 != 0 && z % 5 == 0)
+else if ((z % 3 != 0 && z % 5 == 0))
 {
 printf("Buzz ");
 }
 
-else if (z % 3 == 0 && z % 5 == 0)
+else if ((z % 3 == 0 && z % 5 == 0))
 {
 printf("FizzBuzz ");
 }
