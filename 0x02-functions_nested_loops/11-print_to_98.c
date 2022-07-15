@@ -32,12 +32,19 @@ n++;
 
 else if (n > 98)
 {
+while (n >= 98)
+{
 
-for (n = 98; n >= 98; n--)
+if (n > 98)
 {
 printf("%d, ", n);
 }
-printf("\n");
+else if (n == 98)
+{
+printf("%d\n", n);
+}
 
+n--;
+}
 }
 }
