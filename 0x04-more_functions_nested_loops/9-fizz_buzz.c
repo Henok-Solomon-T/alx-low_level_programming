@@ -37,6 +37,8 @@ else if (z == 1)
 {
 printf("%d ", z);
 }
+else
+printf("%D ", z);
 }
 printf("\n");
 
