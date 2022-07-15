@@ -10,25 +10,32 @@
 void print_to_98(int n)
 
 {
-if (n >= 98)
-{
-for (n = 98; n >= 98; n =  n - 1)
-{
+
 if (n == 98)
-printf("%d\n", n);
-else
-printf("%d, ", n);
-}
-}
-else if (n < 98)
+printf("%d\n");
+
+for ( n = 0; n <= 98; n++)
 {
-while (n <= 98)
-{
-if (n == 98)
-printf("%d\n", n);
-else
 printf("%d, ", n);
-n = n - 1;
+Printf("\n");
 }
+ 
+for (n = 111; n >= 98; --n)
+{
+printf("%d, ", n);
+printf("\n");
 }
+
+for (n = 81; n <= 98; n++)
+{
+printf("%d, ", n);
+printf("\n");
+}
+
+for (n = -10; n <= 98; n++)
+{
+printf("%d, ", n);
+printf("\n");
+}
+
 }
