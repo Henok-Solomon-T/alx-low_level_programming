@@ -37,8 +37,10 @@ else if (z == 1)
 {
 printf("%d ", z);
 }
-else
-printf("%D ", z);
+else 
+{
+printf("%d ", z);
+}
 }
 printf("\n");
 
