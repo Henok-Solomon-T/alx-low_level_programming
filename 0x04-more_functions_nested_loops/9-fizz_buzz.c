@@ -15,11 +15,14 @@ int main(void)
 
 int z;
 
-z = 1;
+for (z = 1; z <= 100; z++)
+{
+
 while (z <= 100)
 {
 
 if ((z % 3 == 0) && (z % 5 == 1))
+
 {
 printf("Fizz ");
 }
@@ -34,13 +37,13 @@ else if ((z % 3 == 0) && (z % 5 == 0))
 printf("FizzBuzz ");
 }
 
-else
-{
+else if ((z % 3 == 1) && (z % 5 ==1)
+
 printf("%d ", z);
-}
+
 
 z++;
 }
-
+}
 return (0);
 }
