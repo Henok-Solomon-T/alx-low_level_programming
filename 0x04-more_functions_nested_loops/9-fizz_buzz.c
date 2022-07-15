@@ -33,7 +33,7 @@ else if (z % 3 == 0 && z % 5 == 0)
 printf("FIzzBuzz ");
 }
 
-else 
+else if (z == 1)
 {
 printf("%d ", z);
 }
