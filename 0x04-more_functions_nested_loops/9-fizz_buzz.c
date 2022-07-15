@@ -15,7 +15,8 @@ int main(void)
 
 int z;
 
-for (z = 0; z <= 100; z++)
+z = 0;
+while (z <= 100)
 {
 
 if (z % 3 == 0 && z % 5 != 0)
@@ -37,6 +38,8 @@ else
 {
 printf("%d ", z);
 }
+
+z++;
 }
 
 printf("\n");
