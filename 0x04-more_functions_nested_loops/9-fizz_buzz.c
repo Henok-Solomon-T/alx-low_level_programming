@@ -19,17 +19,17 @@ z = 1;
 while (z <= 100)
 {
 
-if ((z % 3 == 0) && (z % 5 != 0))
+if ((z % 3 == 0) && (z % 5 == 1))
 {
 printf("Fizz ");
 }
 
-else if ((z % 3 != 0 && z % 5 == 0))
+else if ((z % 3 == 1) && (z % 5 == 0))
 {
 printf("Buzz ");
 }
 
-else if ((z % 3 == 0 && z % 5 == 0))
+else if ((z % 3 == 0) && (z % 5 == 0))
 {
 printf("FizzBuzz ");
 }
