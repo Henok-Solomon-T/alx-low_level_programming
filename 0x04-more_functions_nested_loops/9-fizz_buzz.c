@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include<string.h>
+#include <string.h>
+#include "main.h"
 
 
 /**
@@ -25,7 +26,7 @@ for (z = 0; z <= 100; z++)
 {
 
 
-if (z % 3 != 0 || z % 5 != 0)
+if (z % 3 != 0 && z % 5 != 0)
 {
 printf("%d ", z);
 }
@@ -41,7 +42,7 @@ printf("%s ", ch5);
 
 else if (z % 3 == 0 && z % 5 == 0)
 {
-printf("%s " ch35);
+printf("%s ", ch35);
 }
 
 }
