@@ -11,6 +11,7 @@ void print_chessboard(char (*a)[8])
 
 int h, t;
 
+
 for (h = 0; h < 8; h++)
 {
 
