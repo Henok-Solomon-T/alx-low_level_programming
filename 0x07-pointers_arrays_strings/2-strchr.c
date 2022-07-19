@@ -24,12 +24,12 @@ a = *s++;
 
 if (a == c)
 {
-return(s - 1);
+return (s - 1);
 }
 
 if (a == 0)
 {
-return(NULL);
+return (NULL);
 }
 }
 }
