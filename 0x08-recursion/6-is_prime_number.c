@@ -18,7 +18,7 @@ return (_original_prime(n, n - 1));
  * _original_prime- checks the number is or not prime
  * @n: the number to be checked
  * @x: iterator
- * return: the result.
+ * Return: the result.
  */
 
 
