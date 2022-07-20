@@ -19,7 +19,7 @@ return (_original_sqrt(n, 1));
 /**
  *_original_sqrt- return the sqrt of a number
  *@n: number
- *x: iterator
+ *@x: iterator
  *Return: the sqrt
  */
 
