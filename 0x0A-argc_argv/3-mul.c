@@ -21,7 +21,7 @@ digit = 0;
 while (s[len] != '\0')
 len++;
 
-while (i < len && f ==0)
+while (i < len && f == 0)
 {
 if (s[i] == '-')
 ++d;
@@ -33,7 +33,7 @@ if (d % 2)
 digit = -digit;
 n = n * 10 + digit;
 f = 1;
-if (s[i + 1] < '0' || s[i +1] > '9')
+if (s[i + 1] < '0' || s[i + 1] > '9')
 break;
 f = 0;
 }
@@ -51,7 +51,7 @@ return (n);
  * @argc: number of arguments
  * @argv: array of arguments
  *
- * Retun: 0 if exist
+ * Return: 0 if exist
  */
 
 int main(int argc, char *argv[])
@@ -67,7 +67,7 @@ return (1);
 
 num1 = _atoi(argv[1]);
 num2 = _atoi(argv[2]);
-result = num1 * num2;
+result = num1 *num2;
 
 printf("%d\n", result);
 
