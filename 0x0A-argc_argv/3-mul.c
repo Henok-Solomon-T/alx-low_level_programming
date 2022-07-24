@@ -6,9 +6,18 @@
  * Return: the int converted from a string
  */
 
-int i, d, len, f, digit;
+int _atoi(char *s)
+{
 
-i = d = n = len = f = digit = 0;
+int i, d, n, len, f, digit;
+
+i = 0;
+d = 0;
+n = 0;
+len = 0;
+f = 0;
+digit = 0;
+
 while (s[len] != '\0')
 len++;
 
@@ -24,7 +33,7 @@ if (d % 2)
 digit = -digit;
 n = n * 10 + digit;
 f = 1;
-if (s[i +] < '0' || s[i +1] > '9')
+if (s[i + 1] < '0' || s[i +1] > '9')
 break;
 f = 0;
 }
@@ -51,7 +60,7 @@ int result, num1, num2;
 
 if (argc < 3 || argc > 3)
 {
-printf("Error\n"
+printf("Error\n");
 return (1);
 }
 
@@ -64,4 +73,3 @@ printf("%d\n", result);
 
 return (0);
 }
-
