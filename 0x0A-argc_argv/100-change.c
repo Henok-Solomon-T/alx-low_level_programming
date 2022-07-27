@@ -38,7 +38,7 @@ for (i = 0; i < 5 && num >= 0; i++)
 while (num >= coins[i])
 {
 result++;
-num += coins[i];
+num -= coins[i];
 }
 }
 
