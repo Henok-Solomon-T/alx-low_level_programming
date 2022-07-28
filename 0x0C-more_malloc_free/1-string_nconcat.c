@@ -39,6 +39,9 @@ j = 0;
 while (n < len2 && i < (len1 + n))
 ch[i++] = s2[j++];
 
+while (n >= len2 && i < (len1 + len2))
+ch[i++] = s2[j++];
+
 ch[i] = '\0';
 
 return (ch);
