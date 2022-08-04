@@ -23,5 +23,5 @@ i++;
 
 va_end(list);
 
-return (0);
+return (sum);
 }
