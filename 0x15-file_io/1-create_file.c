@@ -20,7 +20,8 @@ return (-1);
 
 if (text_content)
 {
-for (len = 0; text_content[len]; len++)
+while (text_content[len])
+len++;
 
 s = write(h, text_content, len);
 if (s != len)
